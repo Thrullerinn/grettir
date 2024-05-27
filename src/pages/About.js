@@ -76,26 +76,23 @@ class About extends Component {
                 </div>
                 <div className="col-lg-6 col-12 mb-30">
                   <div className="about-content-two">
-                    <h3>Welcome to Castro</h3>
-                    <h1>50 Years of Experience in Industry</h1>
+                    <h3>Blikksmidjan Grettir</h3>
+                    <h1>30? ár í Blikksmiði</h1>
                     <h4>
-                      We are ready to build your dream home Lorem ipsum dolor
-                      sit amet, consectetur adipisicing elit. Dolorum, beatae.
+                      Hágæða suðuþjónustu
                     </h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Ipsam repudiandae odit dolorum quis laudantium impedit
-                      beatae perferendis natus, hic libero sed atque quibusdam
-                      possimus error, voluptate est molestiae doloremque
-                      necessitatibus illum rerum sunt! Ad sunt obcaecati
-                      voluptatem sint sequi quos, qui non deleniti a
-                      praesentium, sapiente accusantium odit.
-                    </p>
+                    Grettir Blikksmiðja er þekkt fyrirtæki sem sérhæfir sig í hágæða suðuþjónustu fyrir fjölbreyttan iðnað. 
+                    Reyndir suðumenn leggja metnað sinn í að skila einstöku handverki og nákvæmni. 
+                    Hvort sem um er að ræða burðarsuðu, pípusuðu eða almenna málmsmíði er Blikksmiðjan Grettir smáatriðum og ánægðum viðskiptavinum. 
+                    Grettir Blikksmiðjar fylgir stöðlum iðnaðarins til að tryggja öruggt vinnuumhverfi fyrir bæði starfsmenn sína og viðskiptavini. 
+                    Áreiðanleiki, fagmennska og geta til að klára verkefni á réttum tíma
+                                        </p>
                     <a
                       href="services"
                       className="ht-btn--default ht-btn--default--dark-hover section-space--top--20"
                     >
-                      Our Services
+                      Þjónustan
                     </a>
                   </div>
                 </div>
@@ -107,59 +104,8 @@ class About extends Component {
           {/* Feature Icon */}
           <FeatureIcon background="grey-bg" />
 
-          {/*About section start*/}
-          <div className="about-section section-space--inner--120">
-            <div className="container">
-              <div className="about-wrapper row">
-                <div className="col-sm-6 col-12 order-1 order-lg-2">
-                  <div className="about-image about-image-1">
-                    <img src="assets/img/about/about-1.jpg" alt="" />
-                  </div>
-                </div>
-                <div className="col-sm-6 col-12 order-2 order-lg-3">
-                  <div className="about-image about-image-2">
-                    <img src="assets/img/about/about-2.jpg" alt="" />
-                  </div>
-                </div>
-                <div className="col-lg-6 col-12 order-3 order-lg-1">
-                  <div className="about-content about-content-1">
-                    <h1>
-                      <span>50</span>Years of Experience
-                    </h1>
-                    <p>
-                      ligendi optio cumque nihil impedit quo minus id quod
-                      maxime placeat facere possimus, omnis voluptas assumenda
-                      est, omnis dolor ellendus. Temporibus autem quibusdam et
-                      aut officiis debitis aut rerum atibus saepe eveniet ut et
-                      voluptates repudiandae sint et molestiae
-                    </p>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-12 order-4">
-                  <div className="about-content about-content-2">
-                    <p>
-                      ligendi optio cumque nihil impedit quo minus id quod
-                      maxime placeat facere possimus, omnis voluptas assumenda
-                      est, omnis dolor ellendus. Temporibus autem quibusdam et
-                      aut officiis debitis aut rerum atibus saepe eveniet ut et
-                      voluptates repudiandae sint et molestiae non recusandae.
-                      Itaque earum rerum hic tenetur a sapie
-                    </p>
-                    <a
-                      href={`${process.env.PUBLIC_URL}/contact-us`}
-                      className="ht-btn--default ht-btn--default--dark-hover section-space--top--20"
-                    >
-                      Contact us
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/*About section end*/}
-
-          {/* Fun fact */}
-          <Funfact />
+          {/* Fun fact
+          <Funfact /> */}
 
           {/* Team member */}
           <TeamMemberGrid />

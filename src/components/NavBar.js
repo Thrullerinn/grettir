@@ -68,7 +68,7 @@ class NavBar extends Component{
                             <div className="col-lg-8">
                             {/* top bar right */}
                             <div className="top-bar-right-wrapper">
-                                <a href={`${process.env.PUBLIC_URL}/contact-us`} className="ht-btn ht-btn--default d-inline-block">FÁÐU TILBOÐ</a>
+                                <a href={`${process.env.PUBLIC_URL}/contact-us`} className="ht-btn ht-btn--default d-inline-block">Fáðu tilboð í verkið</a>
                             </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ class NavBar extends Component{
                                 <div className="header-info-wrapper align-items-center">
                                     {/* logo */}
                                     <div className="logo">
-                                        <Link to = {`${process.env.PUBLIC_URL}/home-one`}>
+                                        <Link to = {`${process.env.PUBLIC_URL}/`}>
                                             <img src="assets/img/logo/logo.png" className="img-fluid" alt="Logo" />
                                         </Link>
                                     </div>
@@ -104,7 +104,7 @@ class NavBar extends Component{
                                         <i className="zmdi zmdi-home" />
                                         </div>
                                         <div className="header-info-single-item__content">
-                                            <h6 className="header-info-single-item__title">Address</h6>
+                                            <h6 className="header-info-single-item__title">Heimilisfang</h6>
                                             <p className="header-info-single-item__subtitle">Blikksmiðjan Grettir
                                                 ehf</p>
                                             <p className="header-info-single-item__subtitle">Funahöfða 5, 110                               Reykjavík</p>

@@ -15,9 +15,10 @@ class HeroSliderOne extends Component{
         }
 
         let data = [
-            {bgImg: 'slider3.jpg', sliderTitle: 'Build Your Dream With Passion', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'contact-us'},
-            {bgImg: 'slider2.jpg', sliderTitle: 'Build Your Dream With Passion', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'contact-us'},
-            {bgImg: 'slider1.jpg', sliderTitle: 'Build Your Dream With Passion', sliderSubtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.', btnLink: 'contact-us'}
+            {bgImg: 'slider4.jpg', sliderTitle: 'Sérsmíði', sliderSubtitle: 'Vandaðar lausnir í klæðningu og sérsmíði', btnLink: 'contact-us'},
+            {bgImg: 'slider3.jpg', sliderTitle: 'Rammar og önnur sérsmíði', sliderSubtitle: 'Vantar þig skiltaramma?', btnLink: 'contact-us'},
+            {bgImg: 'slider2.jpg', sliderTitle: 'Gluggasmíði', sliderSubtitle: 'Gluggasmíði eftir máli', btnLink: 'contact-us'},
+            {bgImg: 'slider1.jpg', sliderTitle: 'Nú eða kökuform til að baka', sliderSubtitle: 'Kökuform ', btnLink: 'contact-us'}
         ];
 
         let DataList = data.map((val, i)=>{
@@ -31,7 +32,7 @@ class HeroSliderOne extends Component{
                                     <div className="hero-slider__content">
                                         <h2 className="hero-slider__title">{val.sliderTitle}</h2>
                                         <p className="hero-slider__text">{val.sliderSubtitle}</p>
-                                        <a className="hero-slider__btn" href={`${process.env.PUBLIC_URL}/${val.btnLink}`}> GET START</a>
+                                        <a className="hero-slider__btn" href={`${process.env.PUBLIC_URL}/${val.btnLink}`}> Hafa samband</a>
                                     </div>
                                     </div>
                                 </div>

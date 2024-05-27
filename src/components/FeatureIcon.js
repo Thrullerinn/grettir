@@ -4,9 +4,9 @@ class FeatureIcon extends Component{
     render(){
 
         let data = [
-            {featureIcon: "feature-1.png", featureTitle: "Top Rated", featureDescription: "Lorem ipsum dolor sit amet, consec tetur adipisicing elit. Officia odio eum corporis consequatur."},
-            {featureIcon: "feature-2.png", featureTitle: "Best Quality", featureDescription: "Lorem ipsum dolor sit amet, consec tetur adipisicing elit. Officia odio eum corporis consequatur."},
-            {featureIcon: "feature-3.png", featureTitle: "Low Cost", featureDescription: "Lorem ipsum dolor sit amet, consec tetur adipisicing elit. Officia odio eum corporis consequatur."}
+            {featureIcon: "feature-1.png", featureTitle: "Þjónusta", featureDescription: "Reyndir suðumenn leggja metnað sinn í að skila einstöku handverki og nákvæmni."},
+            {featureIcon: "feature-2.png", featureTitle: "Gæði", featureDescription: "Hvort sem um er að ræða burðarsuðu, pípusuðu eða almenna málmsmíði þá ræður Blikksmiðjan Grettir yfir góðum tækjakosti og mannskap sem býr yfir mikilli þekkingu, sem leiðir af sér hágæða smíði."},
+            {featureIcon: "feature-3.png", featureTitle: "Starfsemi", featureDescription: "Grettir Blikksmiðjar fylgir stöðlum iðnaðarins." }
         ];
 
         let Datalist = data.map((val, i)=>{

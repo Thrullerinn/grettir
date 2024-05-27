@@ -98,23 +98,18 @@ class Footer extends Component {
                         <ul className="footer-widget__navigation">
                           <li>
                             <a href={`${process.env.PUBLIC_URL}/`}>
-                              Our Services
+                              Þjónusta
                             </a>
                           </li>
                           <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Showcase</a>
+                            <a href={`${process.env.PUBLIC_URL}/`}>Sýningarkerfi</a>
                           </li>
                           <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Affliates</a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>
-                              Disclaimer
-                            </a>
+                            <a href={`${process.env.PUBLIC_URL}/`}>Samstarfsaðilar</a>
                           </li>
                           <li>
                             <a href={`${process.env.PUBLIC_URL}/`}>
-                              Privacy Policy
+                              Skilmálar
                             </a>
                           </li>
                         </ul>
@@ -126,7 +121,7 @@ class Footer extends Component {
                         <h4 className="footer-widget__title">CONTACT US</h4>
                         <div className="footer-widget__content">
                           <p className="address">
-                            Your address goes here, street Crossroad123.
+                            Heimilisfang
                           </p>
                           <ul className="contact-details">
                             <li>

@@ -7,10 +7,10 @@ class TeamMemberGrid extends Component{
         /* team member data */
         
         let data = [
-            {profileImage: "team-1.jpg", profileTitle: "Jonathan Scott", profileDesignation: "CEO & Architech", profileEmail: "info@example.com", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}},
-            {profileImage: "team-2.jpg", profileTitle: "Benjamin Austin", profileDesignation: "Chief Engineer", profileEmail: "info@example.com", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}},
-            {profileImage: "team-3.jpg", profileTitle: "John Oliver", profileDesignation: "Project Manager", profileEmail: "info@example.com", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}},
-            {profileImage: "team-4.jpg", profileTitle: "Philip Alvarez", profileDesignation: "Finances", profileEmail: "info@example.com", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}}
+            {profileImage: "halli.jpg", profileTitle: "Haraldur Sveinsson", profileDesignation: "CEO og Suðumaður", profileEmail: "grettirblikk@grettirblikk.is", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}},
+            {profileImage: "team-2.jpg", profileTitle: "Nafn Sveinsson", profileDesignation: "Almenn málmsmíði", profileEmail: "", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}},
+            {profileImage: "team-3.jpg", profileTitle: "Nafn nafn", profileDesignation: "Project Manager", profileEmail: "", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}},
+            {profileImage: "team-4.jpg", profileTitle: "Jón Jónsson", profileDesignation: "Finances", profileEmail: "", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}}
         ];
 
         let Datalist = data.map((val, i)=>{
@@ -43,7 +43,7 @@ class TeamMemberGrid extends Component{
                     <div className="row">
                     <div className="col-lg-12">
                         <div className="section-title-area text-center">
-                        <h2 className="section-title section-space--bottom--50">Our Team <span className="title-icon" /></h2>
+                        <h2 className="section-title section-space--bottom--50">Starfsmenn <span className="title-icon" /></h2>
                         </div>
                     </div>
                     </div>
