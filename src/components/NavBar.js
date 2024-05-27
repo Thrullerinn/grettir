@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import MobileMenu from './MobileMenu';
+
 class NavBar extends Component{
 
     constructor(props){
