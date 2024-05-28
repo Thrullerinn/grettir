@@ -7,7 +7,6 @@ import TestimonialSlider from "../components/TestimonialSlider";
 import BrandLogoSlider from "../components/BrandLogoSlider";
 import Footer from "../components/Footer";
 import MobileMenu from "../components/MobileMenu";
-import ModalVideo from "react-modal-video";
 class About extends Component {
   constructor() {
     super();
@@ -62,12 +61,7 @@ class About extends Component {
                   <div className="about-image-two">
                     <img src="assets/img/about/about-3.jpg" alt="" />
                     <span className="video-popup">
-                      <ModalVideo
-                        channel="youtube"
-                        isOpen={this.state.isOpen}
-                        videoId="OrS-93U4AYQ"
-                        onClose={() => this.setState({ isOpen: false })}
-                      />
+                     
                       <button onClick={this.openModal}>
                         <i className="ion-ios-play-outline" />
                       </button>
