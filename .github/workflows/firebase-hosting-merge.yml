@@ -17,3 +17,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_GRETTIR }}'
           channelId: live
           projectId: grettir
+          entryPoint: ./build
