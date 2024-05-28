@@ -9,8 +9,8 @@ class TeamMemberGrid extends Component{
         let data = [
             {profileImage: "halli.jpg", profileTitle: "Haraldur Sveinsson", profileDesignation: "CEO og Suðumaður", profileEmail: "grettirblikk@grettirblikk.is", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}},
             {profileImage: "team-2.jpg", profileTitle: "Nafn Sveinsson", profileDesignation: "Almenn málmsmíði", profileEmail: "", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}},
-            {profileImage: "team-3.jpg", profileTitle: "Nafn nafn", profileDesignation: "Project Manager", profileEmail: "", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}},
-            {profileImage: "team-4.jpg", profileTitle: "Jón Jónsson", profileDesignation: "Finances", profileEmail: "", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}}
+            {profileImage: "team-3.jpg", profileTitle: "Nafn nafn", profileDesignation: "Verkstjóri", profileEmail: "", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}},
+            {profileImage: "team-4.jpg", profileTitle: "Jón Jónsson", profileDesignation: "Bókhald", profileEmail: "", socialLinks: {facebook: "//www.facebook.com", twitter: "//www.twitter.com", "linkedin": "//www.linkedin.com", googlePlus: "//plus.google.com"}}
         ];
 
         let Datalist = data.map((val, i)=>{
