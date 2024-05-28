@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "../components/NavBar";
 import FeatureIcon from "../components/FeatureIcon";
-import Funfact from "../components/Funfact";
 import TeamMemberGrid from "../components/TeamMemberGrid";
 import TestimonialSlider from "../components/TestimonialSlider";
 import BrandLogoSlider from "../components/BrandLogoSlider";

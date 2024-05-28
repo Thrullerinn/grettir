@@ -44,6 +44,8 @@ class Contact extends Component {
                 <div className="col">
                   <div className="contact-map">
                     <iframe
+                    title="blehhh"
+                        id="project_frame" name="project_frame"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1741.0009177103589!2d-21.827062922384115!3d64.128075018107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d67481f30eb80f%3A0x885fc8bd9a61d063!2sBlikksmi%C3%B0jan%20Grettir!5e0!3m2!1sen!2sis!4v1716412954935!5m2!1sen!2sis"
                         width="600" height="450" allowFullScreen="" loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade">
