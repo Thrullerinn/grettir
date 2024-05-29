@@ -10,7 +10,7 @@ class Services extends Component {
         pageLink: "service-details-left-sidebar",
         img: "service1.jpg",
         iconClass: "flaticon-002-welding",
-        serviceTitle: "Land Minning",
+        serviceTitle: "Flasningar",
         serviceSubtitle:
           "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
       },
@@ -18,7 +18,7 @@ class Services extends Component {
         pageLink: "service-details-left-sidebar",
         img: "service2.jpg",
         iconClass: "flaticon-004-walkie-talkie",
-        serviceTitle: "Work Management",
+        serviceTitle: "Fittings",
         serviceSubtitle:
           "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
       },
@@ -26,7 +26,7 @@ class Services extends Component {
         pageLink: "service-details-left-sidebar",
         img: "service3.jpg",
         iconClass: "flaticon-015-cart",
-        serviceTitle: "Material Engineering",
+        serviceTitle: "Sérsmíði",
         serviceSubtitle:
           "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
       },
@@ -34,26 +34,10 @@ class Services extends Component {
         pageLink: "service-details-left-sidebar",
         img: "service-3.jpg",
         iconClass: "flaticon-010-tank-1",
-        serviceTitle: "Power and Energy",
+        serviceTitle: "Kerrusmíði",
         serviceSubtitle:
           "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
       },
-      {
-        pageLink: "service-details-left-sidebar",
-        img: "service-2.jpg",
-        iconClass: "flaticon-004-walkie-talkie",
-        serviceTitle: "Land Minning",
-        serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
-      },
-      {
-        pageLink: "service-details-left-sidebar",
-        img: "service-1.jpg",
-        iconClass: "flaticon-002-welding",
-        serviceTitle: "Work Management",
-        serviceSubtitle:
-          "Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor"
-      }
     ];
 
     let Datalist = data.map((val, i) => {

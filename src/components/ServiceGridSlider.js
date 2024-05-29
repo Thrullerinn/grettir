@@ -26,10 +26,10 @@ class ServiceGridSlider extends Component{
             }
         }
         let data = [
-            {img: 'service1.jpg', iconName: 'flaticon-002-welding', serviceTitle: 'Land Minning', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service2.jpg', iconName: 'flaticon-004-walkie-talkie', serviceTitle: 'Work Management', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service3.jpg', iconName: 'flaticon-015-cart', serviceTitle: 'Material Engineering', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'Power and Energy', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service1.jpg', iconName: 'flaticon-002-welding', serviceTitle: 'Flasningar', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service2.jpg', iconName: 'flaticon-004-walkie-talkie', serviceTitle: 'Fittings', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service3.jpg', iconName: 'flaticon-015-cart', serviceTitle: 'Sérsmíði', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'Kerrusmíði', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
         ];
 
         let DataList = data.map((val, i)=>{

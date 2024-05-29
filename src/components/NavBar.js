@@ -68,7 +68,7 @@ class NavBar extends Component{
                             <div className="col-lg-8">
                             {/* top bar right */}
                             <div className="top-bar-right-wrapper">
-                                <a href={`${process.env.PUBLIC_URL}/contact-us`} className="ht-btn ht-btn--default d-inline-block">Fáðu tilboð í verkið</a>
+                                <a href={`${process.env.PUBLIC_URL}/contact-us`} className="ht-btn ht-btn--default d-inline-block">Tilboð í verk</a>
                             </div>
                             </div>
                         </div>
@@ -95,8 +95,8 @@ class NavBar extends Component{
                                         </div>
                                         <div className="header-info-single-item__content">
                                         <h6 className="header-info-single-item__title">Sími</h6>
-                                        <p className="header-info-single-item__subtitle">
-                                            568 1877</p>
+                                        <p className="header-info-single-item__subtitle" title="Smelltu til að hringja">
+                                        <a href="tel:+3545681877">568 1877</a></p>
                                         </div>
                                     </div>
                                     <div className="header-info-single-item">
@@ -107,8 +107,11 @@ class NavBar extends Component{
                                             <h6 className="header-info-single-item__title">Heimilisfang</h6>
                                             <p className="header-info-single-item__subtitle">Blikksmiðjan Grettir
                                                 ehf</p>
-                                            <p className="header-info-single-item__subtitle">Funahöfða 5, 110                               Reykjavík</p>
-                                            <p className="header-info-single-item__subtitle">Kennitala: 511200-3690</p>
+                                            <p className="header-info-single-item__subtitle">Funahöfða 5, 110 Reykjavík</p>
+                                            <p className="header-info-single-item__subtitle">Kennitala: 511200-3690</p>   
+                                            <p className="header-info-single-item__subtitle">Netfang:
+                                              <a href="mailto:grettirblikk@grettirblikk.is">grettirblikk@grettirblikk.is</a>
+                                            </p>
 
 
                                         </div>
@@ -137,9 +140,10 @@ class NavBar extends Component{
                                             <li className="has-children has-children--multilevel-submenu">
                                                 <Link to={`${process.env.PUBLIC_URL}/home-one`}> HEIM </Link>
                                                 <ul className="submenu">
-                                                    <li><Link to={`${process.env.PUBLIC_URL}/home-one`}>Síða eitt</Link></li>
-                                                    <li><Link to={`${process.env.PUBLIC_URL}/home-two`}>Síða tvö</Link></li>
-                                                    <li><Link to={`${process.env.PUBLIC_URL}/home-three`}>Síða þrjú</Link></li>
+                                                    <li><Link to={`${process.env.PUBLIC_URL}/home-one`}>Heim</Link></li>
+                                                    <li><Link to={`${process.env.PUBLIC_URL}/home-two`}>Verk</Link></li>
+                                                    <li><Link to={`${process.env.PUBLIC_URL}/home-three`}>Starfsmenn</Link></li>
+                                                    <li><Link to={`${process.env.PUBLIC_URL}/home-four`}>Hafa samband</Link></li>
                                                 </ul>
                                             </li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>UM</Link></li>
