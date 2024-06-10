@@ -58,80 +58,25 @@ class Footer extends Component {
                           </a>
                         </div>
                         <div className="footer-desc">
-                          Lorem ipsum dolor sit amet consect adipisici elit, sed
-                          do eiusmod tempor incididuk ut labore et dolore magna
-                          aliqua Ut enim
+                          Blikksmiðjan Grettir stutt lýsing
                         </div>
                       </div>
                     </div>
                     <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
-                      {/* footer widget */}
-                      <div className="footer-widget">
-                        <h4 className="footer-widget__title">USEFUL LINKS</h4>
-                        <ul className="footer-widget__navigation">
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Home</a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>
-                              Company News
-                            </a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Projects</a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Careers</a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>
-                              Contact Us
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
                     </div>
                     <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
-                      {/* footer widget */}
-                      <div className="footer-widget">
-                        <h4 className="footer-widget__title">USEFUL LINKS</h4>
-                        <ul className="footer-widget__navigation">
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>
-                              Þjónusta
-                            </a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Sýningarkerfi</a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>Samstarfsaðilar</a>
-                          </li>
-                          <li>
-                            <a href={`${process.env.PUBLIC_URL}/`}>
-                              Skilmálar
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
                     </div>
                     <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                       {/* footer widget */}
                       <div className="footer-widget mb-0">
-                        <h4 className="footer-widget__title">CONTACT US</h4>
+                        <h4 className="footer-widget__title">Hafa samband</h4>
                         <div className="footer-widget__content">
-                          <p className="address">
-                            Heimilisfang
-                          </p>
                           <ul className="contact-details">
                             <li>
-                              <span>P:</span>99 55 66 88 526
+                              <span>Sími:</span><a href="tel:+3545681877">568 1877</a>
                             </li>
                             <li>
-                              <span>F:</span>55 44 77 62
-                            </li>
-                            <li>
-                              <span>E:</span>cons@email.com
+                              <span>Netfang:</span><a href="mailto:grettirblikk@grettirblikk.is">grettirblikk@grettirblikk.is</a>
                             </li>
                           </ul>
                         </div>
@@ -145,8 +90,7 @@ class Footer extends Component {
           <div className="footer-copyright-wrapper">
             <div className="footer-copyright text-center">
               <p className="copyright-text">
-                &copy; Castro {new Date().getFullYear()} Made With <i className="fa fa-heart"></i> By
-                HasThemes
+                &copy; Blikksmiðjan Grettir {new Date().getFullYear()} 
               </p>
             </div>
           </div>

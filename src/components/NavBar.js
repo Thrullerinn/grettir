@@ -109,8 +109,10 @@ class NavBar extends Component{
                                                 ehf</p>
                                             <p className="header-info-single-item__subtitle">Funahöfða 5, 110 Reykjavík</p>
                                             <p className="header-info-single-item__subtitle">Kennitala: 511200-3690</p>   
-                                            <p className="header-info-single-item__subtitle">Netfang:
-                                              <a href="mailto:grettirblikk@grettirblikk.is">grettirblikk@grettirblikk.is</a>
+                                            <p className="header-info-single-item__subtitle">Kennitala: 511200-3690</p>   
+                                            <p className="header-info-single-item__subtitle">Opnunartími: 8:00-17:00 alla virka daga</p>
+                                            <p className="header-info-single-item__subtitle">
+                                                <a href="mailto:grettirblikk@grettirblikk.is">grettirblikk@grettirblikk.is</a>
                                             </p>
 
 
@@ -141,20 +143,12 @@ class NavBar extends Component{
                                                 <Link to={`${process.env.PUBLIC_URL}/home-one`}> HEIM </Link>
                                                 <ul className="submenu">
                                                     <li><Link to={`${process.env.PUBLIC_URL}/home-one`}>Heim</Link></li>
-                                                    <li><Link to={`${process.env.PUBLIC_URL}/home-two`}>Verk</Link></li>
-                                                    <li><Link to={`${process.env.PUBLIC_URL}/home-three`}>Starfsmenn</Link></li>
+                                                    {/* <li><Link to={`${process.env.PUBLIC_URL}/home-two`}>Verk</Link></li> */ }
+                                                    <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>Starfsmenn</Link></li>
                                                     <li><Link to={`${process.env.PUBLIC_URL}/home-four`}>Hafa samband</Link></li>
                                                 </ul>
                                             </li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>UM</Link></li>
-                                            <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/services`}>ÞJÓNUSTA</Link>
-                                                <ul className="submenu">
-                                                <li><Link to={`${process.env.PUBLIC_URL}/services`}>Service Page</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>Þjónusta vinstri</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-right-sidebar`}>Þjónusta hægri</Link></li>
-                                                </ul>
-                                            </li>
                                             <li className="has-children has-children--multilevel-submenu">
                                                 <Link to={`${process.env.PUBLIC_URL}/projects`} >VERKEFNI</Link>
                                                 <ul className="submenu">

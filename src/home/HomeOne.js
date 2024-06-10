@@ -3,8 +3,6 @@ import NavBar from '../components/NavBar';
 import HeroSliderOne from '../components/HeroSliderOne';
 import ServiceGridSlider from '../components/ServiceGridSlider';
 import ProjectSlider from '../components/ProjectSlider';
-import TeamJob from '../components/TeamJob';
-import TestimonialSlider from '../components/TestimonialSlider';
 import BrandLogoSlider from '../components/BrandLogoSlider';
 import Footer from '../components/Footer';
 
@@ -28,10 +26,10 @@ class HomeOne extends Component{
                 <ProjectSlider/>
                 
                 {/* Team job */}
-                <TeamJob/>
+                {/* <TeamJob/> */}
                 
                 {/* Testimonial Slider */}
-                <TestimonialSlider/>
+                {/* <TestimonialSlider/> */}
                 
                 {/* Blog grid */}
                 {/* <BlogGrid background="grey-bg" /> */}

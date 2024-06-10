@@ -61,25 +61,6 @@ class ServiceGridSlider extends Component{
         });
         return(
             <div>
-                {/*====================  service grid slider area ====================*/}
-                <div className="service-grid-slider-area section-space--inner--120">
-                <div className="container">
-                    <div className="row">
-                    <div className="col-lg-12">
-                        <div className="section-title-area text-center">
-                        <h2 className="section-title section-space--bottom--50">Þjónusta <span className="title-icon" /></h2>
-                        </div>
-                    </div>
-                    <div className="col-lg-12">
-                        <div className="service-slider">
-                            <SwiperSlider options={params}>
-                                {DataList}
-                            </SwiperSlider>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
                 {/*====================  End of service grid slider area  ====================*/}
 
             </div>

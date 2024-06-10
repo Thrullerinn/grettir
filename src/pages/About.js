@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import NavBar from "../components/NavBar";
-import FeatureIcon from "../components/FeatureIcon";
 import TeamMemberGrid from "../components/TeamMemberGrid";
-import TestimonialSlider from "../components/TestimonialSlider";
 import BrandLogoSlider from "../components/BrandLogoSlider";
 import Footer from "../components/Footer";
 import MobileMenu from "../components/MobileMenu";
+import Contact from "../pages/Contact";
 class About extends Component {
   constructor() {
     super();
@@ -37,12 +36,12 @@ class About extends Component {
             <div className="row">
               <div className="col">
                 <div className="page-banner text-center">
-                  <h1>About Us</h1>
+                  <h1>Blikksmiðjan Grettir</h1>
                   <ul className="page-breadcrumb">
                     <li>
-                      <a href="/">Home</a>
+                      <a href="/">Tilbaka</a>
                     </li>
-                    <li>About Us</li>
+                    <li>Um</li>
                   </ul>
                 </div>
               </div>
@@ -50,6 +49,9 @@ class About extends Component {
           </div>
         </div>
         {/*====================  End of breadcrumb area  ====================*/}
+
+          {/* Team member */}
+          <TeamMemberGrid />
 
         <div className="page-wrapper section-space--inner--top--120">
           {/*About section start*/}
@@ -94,20 +96,10 @@ class About extends Component {
           </div>
           {/*About section end*/}
 
-          {/* Feature Icon */}
-          <FeatureIcon background="grey-bg" />
-
-          {/* Fun fact
-          <Funfact /> */}
-
-          {/* Team member */}
-          <TeamMemberGrid />
-
-          {/* Testimonial Slider */}
-          <TestimonialSlider />
-
           {/* Brand logo */}
           <BrandLogoSlider background="" />
+
+          <Contact />
         </div>
 
         {/* Footer */}

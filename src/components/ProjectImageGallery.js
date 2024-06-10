@@ -12,7 +12,7 @@ class ProjectImageGallery extends Component {
                             <div className="col-lg-12">
                                 {/* section title */}
                                 <div className="section-title-area text-center section-space--bottom--50">
-                                    <h2 className="section-title">Latest Projects</h2>
+                                    <h2 className="section-title">Verkefni</h2>
                                     <p className="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
                                 </div>
                             </div>

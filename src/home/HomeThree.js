@@ -33,7 +33,7 @@ class HomeThree extends Component{
                 <ServiceTabTwo/>
                 
                 {/* Testimonial Slider */}
-                <TestimonialSlider/>
+                {/* TestimonialSlider/> */}
 
                 {/* Project image gallery */}
                 <ProjectImageGallery />

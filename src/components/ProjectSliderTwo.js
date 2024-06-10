@@ -60,7 +60,7 @@ class ServiceGridSlider extends Component{
                     <div className="row">
                         <div className="col-lg-12">
                         <div className="section-title-area text-center">
-                            <h2 className="section-title mb-0">Latest Projects <span className="title-icon" /></h2>
+                            <h2 className="section-title mb-0">Verkefni <span className="title-icon" /></h2>
                         </div>
                         </div>
                     </div>
