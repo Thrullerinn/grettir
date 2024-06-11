@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar';
 import HeroSliderOne from '../components/HeroSliderOne';
 import ServiceGridSlider from '../components/ServiceGridSlider';
 import ProjectSlider from '../components/ProjectSlider';
+import Contact from '../pages/Contact';
 import BrandLogoSlider from '../components/BrandLogoSlider';
 import Footer from '../components/Footer';
 
@@ -24,6 +25,7 @@ class HomeOne extends Component{
                 
                 {/* Project Slider */}
                 <ProjectSlider/>
+                <Contact/>
                 
                 {/* Team job */}
                 {/* <TeamJob/> */}
