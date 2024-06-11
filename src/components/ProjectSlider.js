@@ -15,9 +15,9 @@ class ProjectSlider extends Component{
         };
         
         let data = [
-            {img: '1.jpg', sliderTitle: 'Construction Management', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
-            {img: '1.jpg', sliderTitle: 'Power and Energy', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
-            {img: '1.jpg', sliderTitle: 'Work Management', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
+            {img: '1.jpg', sliderTitle: 'Bekkir í Hjartargaði', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
+            {img: '1.jpg', sliderTitle: 'Undirstöður fyrir hitaveiturör', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
+            {img: '1.jpg', sliderTitle: 'Kerra fyrir hjálparsveitina í Garðabæ', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
         ];
 
 
@@ -55,7 +55,7 @@ class ProjectSlider extends Component{
                     <div className="col-lg-12">
                         {/* section title */}
                         <div className="section-title-area text-center">
-                            <h2 className="section-title section-space--bottom--50">Latest Projects <span className="title-icon" /></h2>
+                            <h2 className="section-title section-space--bottom--50">Verkefni <span className="title-icon" /></h2>
                         </div>
                     </div>
                     </div>

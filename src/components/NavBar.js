@@ -140,15 +140,12 @@ class NavBar extends Component{
                                         <nav>
                                             <ul>
                                             <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/heim`}> HEIM </Link>
+                                                <Link to={`${process.env.PUBLIC_URL}/heim`}>HEIM</Link>
                                                 <ul className="submenu">
                                                     <li><Link to={`${process.env.PUBLIC_URL}/heim`}>Heim</Link></li>
-                                                    {/* <li><Link to={`${process.env.PUBLIC_URL}/home-two`}>Verk</Link></li> */ }
                                                     <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>Starfsmenn</Link></li>
-                                                    <li><Link to={`${process.env.PUBLIC_URL}/home-four`}>Hafa samband</Link></li>
                                                 </ul>
                                             </li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>UM</Link></li>
                                             <li className="has-children has-children--multilevel-submenu">
                                                 <Link to={`${process.env.PUBLIC_URL}/projects`} >VERKEFNI</Link>
                                                 <ul className="submenu">
@@ -156,6 +153,7 @@ class NavBar extends Component{
                                                 </ul>
                                             </li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>HAFA SAMBAND</Link> </li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>UM</Link></li>
                                             </ul>
                                         </nav>
                                         </div>
