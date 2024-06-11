@@ -140,9 +140,9 @@ class NavBar extends Component{
                                         <nav>
                                             <ul>
                                             <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/home-one`}> HEIM </Link>
+                                                <Link to={`${process.env.PUBLIC_URL}/heim`}> HEIM </Link>
                                                 <ul className="submenu">
-                                                    <li><Link to={`${process.env.PUBLIC_URL}/home-one`}>Heim</Link></li>
+                                                    <li><Link to={`${process.env.PUBLIC_URL}/heim`}>Heim</Link></li>
                                                     {/* <li><Link to={`${process.env.PUBLIC_URL}/home-two`}>Verk</Link></li> */ }
                                                     <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>Starfsmenn</Link></li>
                                                     <li><Link to={`${process.env.PUBLIC_URL}/home-four`}>Hafa samband</Link></li>
@@ -153,7 +153,6 @@ class NavBar extends Component{
                                                 <Link to={`${process.env.PUBLIC_URL}/projects`} >VERKEFNI</Link>
                                                 <ul className="submenu">
                                                 <li><Link to={`${process.env.PUBLIC_URL}/projects`} >Verkefnasíða</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/project-details`}>Upplýsingar um verkefni</Link></li>
                                                 </ul>
                                             </li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>HAFA SAMBAND</Link> </li>

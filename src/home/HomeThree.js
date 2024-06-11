@@ -4,7 +4,6 @@ import HeroSliderThree from '../components/HeroSliderThree';
 import FeatureIconText from '../components/FeatureIconText';
 import AboutText from '../components/AboutText';
 import ServiceTabTwo from '../components/ServiceTabTwo';
-import TestimonialSlider from '../components/TestimonialSlider';
 import ProjectImageGallery from '../components/ProjectImageGallery'
 import BlogGridTwo from '../components/BlogGridTwo';
 import BrandLogoSlider from '../components/BrandLogoSlider';
