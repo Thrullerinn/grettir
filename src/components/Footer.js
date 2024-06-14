@@ -58,7 +58,7 @@ class Footer extends Component {
                           </a>
                         </div>
                         <div className="footer-desc">
-                          Blikksmiðjan Grettir stutt lýsing
+                          Blikksmiðjan Grettir hefur alla tíð lagt sig fram við að veita viðskiptavinum sínum snögga og vandaða þjónustu.
                         </div>
                       </div>
                     </div>

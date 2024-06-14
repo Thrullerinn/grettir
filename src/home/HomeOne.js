@@ -5,7 +5,6 @@ import ServiceGridSlider from '../components/ServiceGridSlider';
 import ProjectSlider from '../components/ProjectSlider';
 import Contact from '../pages/Contact';
 import BrandLogoSlider from '../components/BrandLogoSlider';
-import Footer from '../components/Footer';
 
 
 class HomeOne extends Component{
@@ -39,8 +38,6 @@ class HomeOne extends Component{
                 {/* Brand logo */}
                 <BrandLogoSlider />
 
-                {/* Footer */}
-                <Footer/>
 
             </div>
         )

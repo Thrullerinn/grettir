@@ -15,10 +15,10 @@ class HeroSliderOne extends Component{
         }
 
         let data = [
-            {bgImg: 'slider3.jpg', sliderTitle: 'Allur tækjabúnaður til staðar', sliderSubtitle: 'Skiltarammar', btnLink: 'contact-us'},
-            {bgImg: 'slider4.jpg', sliderTitle: 'Sérsmíði', sliderSubtitle: 'Vandaðar lausnir í klæðningu og sérsmíði', btnLink: 'contact-us'},
-            {bgImg: 'slider2.jpg', sliderTitle: 'Gluggasmíði', sliderSubtitle: 'Gluggasmíði eftir máli', btnLink: 'contact-us'},
-            {bgImg: 'slider1.jpg', sliderTitle: 'Topp tækjabúnaður', sliderSubtitle: 'Fáðu tilboð í verkið', btnLink: 'contact-us'}
+            {bgImg: 'slider3.jpg', sliderTitle: 'Almenn suðuvinna og sérsmíði', sliderSubtitle: 'Skiltarammar', btnLink: 'contact-us'},
+            {bgImg: 'slider4.jpg', sliderTitle: 'Vönduð vinna og frágangur', sliderSubtitle: 'Vandaðar lausnir í klæðningu og sérsmíði', btnLink: 'contact-us'},
+            {bgImg: 'slider2.jpg', sliderTitle: 'Gluggasmíði', sliderSubtitle: 'Sérsmíði, vönduð vinna', btnLink: 'contact-us'},
+            {bgImg: 'slider1.jpg', sliderTitle: 'Vatnsskurður', sliderSubtitle: 'Vandaður vatnsskurður á plötum', btnLink: 'contact-us'}
         ];
 
         let DataList = data.map((val, i)=>{
