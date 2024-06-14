@@ -25,14 +25,12 @@ class BrandLogoSlider extends Component{
         }
 
         let data = [
-            {img: '1.png', logoLink: '/'},
-            {img: '2.png', logoLink: '/'},
-            {img: '3.png', logoLink: '/'},
-            {img: '4.png', logoLink: '/'},
-            {img: '1.png', logoLink: '/'},
-            {img: '2.png', logoLink: '/'},
-            {img: '3.png', logoLink: '/'},
-            {img: '4.png', logoLink: '/'}
+            {img: 'altak.png', logoLink: 'www.altak.is'},
+            {img: 'Ga-merki.png', logoLink: 'www.ga.is'},
+            {img: 'metal.jpeg', logoLink: 'www.metal.is'},
+            {img: 'altak.png', logoLink: 'www.altak.is'},
+            {img: 'Ga-merki.png', logoLink: 'www.ga.is'},
+            {img: 'metal.jpeg', logoLink: 'www.metal.is'},
         ];
 
         let DataList = data.map((val, i)=>{
@@ -41,7 +39,7 @@ class BrandLogoSlider extends Component{
                     <div className="brand-logo-slider__single">
                         <div className="image text-center">
                             <a href={val.logoLink}>
-                                <img src={`assets/img/brand-logo/${val.img}`} className="img-fluid" alt="" />
+                                <img style={{maxWidth:150, maxHeight: 60 }} src={`assets/img/logo/${val.img}`} className="img-fluid" alt="" />
                             </a>
                         </div>
                     </div>
