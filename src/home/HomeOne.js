@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import NavBar from '../components/NavBar';
 import HeroSliderOne from '../components/HeroSliderOne';
 import ServiceGridSlider from '../components/ServiceGridSlider';
-import ProjectSlider from '../components/ProjectSlider';
 import Contact from '../pages/Contact';
 import BrandLogoSlider from '../components/BrandLogoSlider';
 
