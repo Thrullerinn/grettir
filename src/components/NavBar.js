@@ -57,10 +57,6 @@ class NavBar extends Component{
                                 <div className="social-links social-links--white-topbar d-inline-block">
                                 <ul>
                                     <li><a href="//facebook.com/BlikksmidjanGrettir"><i className="zmdi zmdi-facebook" /></a></li>
-                                    <li><a href="//twitter.com"><i className="zmdi zmdi-twitter" /></a></li>
-                                    <li><a href="//vimeo.com"><i className="zmdi zmdi-vimeo" /></a></li>
-                                    <li><a href="//linkedin.com"><i className="zmdi zmdi-linkedin-box" /></a></li>
-                                    <li><a href="//skype.com"><i className="zmdi zmdi-skype" /></a></li>
                                 </ul>
                                 </div>
                             </div>
@@ -68,7 +64,7 @@ class NavBar extends Component{
                             <div className="col-lg-8">
                             {/* top bar right */}
                             <div className="top-bar-right-wrapper">
-                                <a href={`${process.env.PUBLIC_URL}/contact-us`} className="ht-btn ht-btn--default d-inline-block">Tilboð í verk</a>
+                                <a href={`${process.env.PUBLIC_URL}/contact-us`} className="ht-btn ht-btn--default d-inline-block">Fá tilboð í verk</a>
                             </div>
                             </div>
                         </div>
@@ -144,12 +140,6 @@ class NavBar extends Component{
                                                 <ul className="submenu">
                                                     <li><Link to={`${process.env.PUBLIC_URL}/heim`}>Heim</Link></li>
                                                     <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>Starfsmenn</Link></li>
-                                                </ul>
-                                            </li>
-                                            <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/projects`} >VERKEFNI</Link>
-                                                <ul className="submenu">
-                                                <li><Link to={`${process.env.PUBLIC_URL}/projects`} >Verkefnasíða</Link></li>
                                                 </ul>
                                             </li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>HAFA SAMBAND</Link> </li>

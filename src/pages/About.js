@@ -59,35 +59,21 @@ class About extends Component {
               <div className="row row-25 align-items-center">
                 <div className="col-lg-6 col-12 mb-30">
                   <div className="about-image-two">
-                    <img src="assets/img/about/about-3.jpg" alt="" />
-                    <span className="video-popup">
-                     
-                      <button onClick={this.openModal}>
-                        <i className="ion-ios-play-outline" />
-                      </button>
-                    </span>
+                    <img src="assets/img/logo/logo.png" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-6 col-12 mb-30">
                   <div className="about-content-two">
                     <h3>Blikksmidjan Grettir</h3>
-                    <h1>30? ár í Blikksmiði</h1>
+                    <h1>Stofnuð 1990</h1>
                     <h4>
-                      Hágæða suðuþjónustu
+                      Hágæða Málmsmíði
                     </h4>
                     <p>
-                    Grettir Blikksmiðja er þekkt fyrirtæki sem sérhæfir sig í hágæða suðuþjónustu fyrir fjölbreyttan iðnað. 
-                    Reyndir suðumenn leggja metnað sinn í að skila einstöku handverki og nákvæmni. 
-                    Hvort sem um er að ræða burðarsuðu, pípusuðu eða almenna málmsmíði er Blikksmiðjan Grettir smáatriðum og ánægðum viðskiptavinum. 
-                    Grettir Blikksmiðjar fylgir stöðlum iðnaðarins til að tryggja öruggt vinnuumhverfi fyrir bæði starfsmenn sína og viðskiptavini. 
-                    Áreiðanleiki, fagmennska og geta til að klára verkefni á réttum tíma
+                    Grettir Blikksmiðja er framleiðslu- og þjónustufyrirtæki fyrir stáliðnað. 
+                    Framleiðum vörur úr stáli fyrir heimili, fyrirtæki og stofnanir. 
+                    Smíði og framleiðsla á vörum til notkunar innan- sem utandyra.
                                         </p>
-                    <a
-                      href="services"
-                      className="ht-btn--default ht-btn--default--dark-hover section-space--top--20"
-                    >
-                      Þjónustan
-                    </a>
                   </div>
                 </div>
               </div>

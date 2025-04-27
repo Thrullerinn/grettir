@@ -23,7 +23,7 @@ class HomeOne extends Component{
                 <ServiceGridSlider/>
                 
                 {/* Project Slider */}
-                <ProjectSlider/>
+                {/* <ProjectSlider/> */}
                 <Contact/>
                 
                 {/* Team job */}

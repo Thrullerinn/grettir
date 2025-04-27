@@ -67,12 +67,6 @@ class MobileMenu extends Component{
                                             <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>Starfsmenn</Link></li>
                                         </ul>
                                     </li>
-                                    <li className="menu-item-has-children">
-                                        <Link to={`${process.env.PUBLIC_URL}/projects`} >VERKEFNI</Link>
-                                        <ul className="sub-menu">
-                                            <li><Link to={`${process.env.PUBLIC_URL}/projects`} >Verkefnasíða</Link></li>
-                                         </ul>
-                                    </li>
                                     <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>HAFA SAMBAND</Link> </li>
                                 </ul>
                             </nav>
