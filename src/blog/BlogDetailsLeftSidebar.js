@@ -4,7 +4,6 @@ import Sidebar from "./components/Sidebar";
 import BlogPostContent from "./components/BlogPostContent";
 import BrandLogoSlider from "../components/BrandLogoSlider";
 import Footer from "../components/Footer";
-import MobileMenu from "../components/MobileMenu";
 class BlogDetailsLeftSidebar extends Component {
   render() {
     return (
@@ -71,8 +70,6 @@ class BlogDetailsLeftSidebar extends Component {
         {/* Footer */}
         <Footer />
 
-        {/* Mobile Menu */}
-        <MobileMenu />
       </div>
     );
   }

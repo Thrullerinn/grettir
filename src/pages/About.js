@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import NavBar from "../components/NavBar";
 import TeamMemberGrid from "../components/TeamMemberGrid";
 import BrandLogoSlider from "../components/BrandLogoSlider";
-import MobileMenu from "../components/MobileMenu";
 import Contact from "../pages/Contact";
 class About extends Component {
   constructor() {
@@ -86,9 +85,6 @@ class About extends Component {
 
           <Contact />
         </div>
-
-        {/* Mobile Menu */}
-        <MobileMenu />
       </div>
     );
   }

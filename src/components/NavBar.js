@@ -159,7 +159,6 @@ class NavBar extends Component{
                 
                 {/* Mobile Menu */}
                 <MobileMenu ref={this.mobileMenuElement} />
-
             </div>
         )
     }

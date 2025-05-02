@@ -135,9 +135,6 @@ class Services extends Component {
 
         {/* Footer */}
         <Footer />
-
-        {/* Mobile Menu */}
-        <MobileMenu />
       </div>
     );
   }

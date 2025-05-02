@@ -3,7 +3,6 @@ import NavBar from "../components/NavBar";
 import Sidebar from "./components/Sidebar";
 import BrandLogoSlider from "../components/BrandLogoSlider";
 import Footer from "../components/Footer";
-import MobileMenu from "../components/MobileMenu";
 import ServiceGallery from "./components/ServiceGallery";
 class ServiceDetailsRightSidebar extends Component {
   render() {
@@ -128,8 +127,6 @@ class ServiceDetailsRightSidebar extends Component {
         {/* Footer */}
         <Footer />
 
-        {/* Mobile Menu */}
-        <MobileMenu />
       </div>
     );
   }

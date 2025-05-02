@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import NavBar from "../components/NavBar";
 import BrandLogoSlider from "../components/BrandLogoSlider";
 import Footer from "../components/Footer";
-import MobileMenu from "../components/MobileMenu";
 class Projects extends Component {
   render() {
     let data = [
@@ -160,9 +159,6 @@ class Projects extends Component {
 
         {/* Footer */}
         <Footer />
-
-        {/* Mobile Menu */}
-        <MobileMenu />
       </div>
     );
   }

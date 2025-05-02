@@ -8,7 +8,6 @@ import ProjectImageGallery from '../components/ProjectImageGallery'
 import BlogGridTwo from '../components/BlogGridTwo';
 import BrandLogoSlider from '../components/BrandLogoSlider';
 import Footer from '../components/Footer';
-import MobileMenu from '../components/MobileMenu';
 
 class HomeThree extends Component{
     render(){
@@ -45,9 +44,6 @@ class HomeThree extends Component{
 
                 {/* Footer */}
                 <Footer/>
-
-                {/* Mobile Menu */}
-                <MobileMenu/>
 
             </div>
         )
