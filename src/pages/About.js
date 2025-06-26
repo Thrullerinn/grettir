@@ -54,7 +54,7 @@ class About extends Component {
               <div className="row row-25 align-items-center">
                 <div className="col-lg-6 col-12 mb-30">
                   <div className="about-image-two">
-                    <img src="assets/img/logo/logo.png" alt="" />
+                    <img src="assets/img/logo/logo.jpg" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-6 col-12 mb-30">

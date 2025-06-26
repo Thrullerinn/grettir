@@ -80,7 +80,7 @@ class NavBar extends Component{
                                     {/* logo */}
                                     <div className="logo">
                                         <Link to = {`${process.env.PUBLIC_URL}/`}>
-                                            <img src="assets/img/logo/logo.png" className="img-fluid" alt="Logo" />
+                                            <img src="assets/img/logo/logo.jpg" className="img-fluid" alt="Logo" />
                                         </Link>
                                     </div>
                                     {/* header contact info */}
@@ -104,7 +104,6 @@ class NavBar extends Component{
                                             <p className="header-info-single-item__subtitle">Blikksmiðjan Grettir
                                                 ehf</p>
                                             <p className="header-info-single-item__subtitle">Funahöfða 5, 110 Reykjavík</p>
-                                            <p className="header-info-single-item__subtitle">Kennitala: 511200-3690</p>   
                                             <p className="header-info-single-item__subtitle">Kennitala: 511200-3690</p>   
                                             <p className="header-info-single-item__subtitle">Opnunartími: 8:00-17:00 alla virka daga</p>
                                             <p className="header-info-single-item__subtitle">
@@ -135,13 +134,7 @@ class NavBar extends Component{
                                         <div className="header-navigation__nav position-static">
                                         <nav>
                                             <ul>
-                                            <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/heim`}>HEIM</Link>
-                                                <ul className="submenu">
-                                                    <li><Link to={`${process.env.PUBLIC_URL}/heim`}>Heim</Link></li>
-                                                    <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>Starfsmenn</Link></li>
-                                                </ul>
-                                            </li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/`}>HEIM</Link> </li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>HAFA SAMBAND</Link> </li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>UM</Link></li>
                                             </ul>

@@ -60,14 +60,9 @@ class MobileMenu extends Component{
                             </div>
                             <nav className="offcanvas-navigation" id="offcanvas-navigation">
                                 <ul>
-                                    <li className="menu-item-has-children">
-                                    <Link to={`${process.env.PUBLIC_URL}/heim`}>HEIM</Link>
-                                        <ul className="sub-menu">
-                                            <li><Link to={`${process.env.PUBLIC_URL}/heim`}>Heim</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>Starfsmenn</Link></li>
-                                        </ul>
-                                    </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>HAFA SAMBAND</Link> </li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/`}>HEIM</Link> </li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>UM BLIKKSMIÐJUNA</Link> </li>
+                                    <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>HAFA SAMBAND</Link> </li>
                                 </ul>
                             </nav>
                             <div className="offcanvas-widget-area">
