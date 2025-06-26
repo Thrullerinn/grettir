@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import NavBar from "../components/NavBar";
-import TeamMemberGrid from "../components/TeamMemberGrid";
 import BrandLogoSlider from "../components/BrandLogoSlider";
 import Contact from "../pages/Contact";
 class About extends Component {
@@ -47,9 +46,6 @@ class About extends Component {
           </div>
         </div>
         {/*====================  End of breadcrumb area  ====================*/}
-
-          {/* Team member */}
-          <TeamMemberGrid />
 
         <div className="page-wrapper section-space--inner--top--120">
           {/*About section start*/}

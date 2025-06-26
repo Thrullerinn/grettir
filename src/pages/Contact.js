@@ -1,8 +1,49 @@
-import React, { Component } from "react";
-import Footer from "../components/Footer";
-class Contact extends Component {
-  render() {
-    return (
+import React from "react";
+import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+const Contact = () => {
+  const form = React.useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_skx5i4d",
+        "template_ub53qvc",
+        form.current,
+        "8k2NKujkisSAW7Xhs"
+      )
+      .then(
+        (result) => {
+          toast.success("Skilaboð send!", {
+            position: "top-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+          document.getElementById("myForm").reset();
+        },
+        (error) => {
+          toast.error("Eitthvað obbobobb í sendingunni!", {
+            position: "top-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+        }
+      );
+  };
+
+  return (
+
       <div>
 
         {/* breadcrumb */}
@@ -36,20 +77,6 @@ class Contact extends Component {
           {/*Contact section start*/}
           <div className="conact-section">
             <div className="container">
-              <div className="row section-space--bottom--50">
-                <div className="col">
-                  <div className="contact-map">
-                    <iframe
-                    title="blehhh"
-                        id="project_frame" name="project_frame"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1741.0009177103589!2d-21.827062922384115!3d64.128075018107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d67481f30eb80f%3A0x885fc8bd9a61d063!2sBlikksmi%C3%B0jan%20Grettir!5e0!3m2!1sen!2sis!4v1716412954935!5m2!1sen!2sis"
-                        width="600" height="450" allowFullScreen="" loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade">
-
-                    </iframe>
-                  </div>
-                </div>
-              </div>
               <div className="row">
                 <div className="col-lg-4 col-12">
                   <div className="contact-information">
@@ -89,34 +116,75 @@ class Contact extends Component {
                 <div className="col-lg-8 col-12">
                   <div className="contact-form">
                     <h3>Skilaboð</h3>
-                    <form id="contact-form">
-                      <div className="row row-10">
-                        <div className="col-md-6 col-12 section-space--bottom--20">
-                          <input
-                            name="con_name"
-                            type="text"
-                            placeholder="Nafn"
-                          />
+                    <div className="fields">
+                      <form
+                        className="contact_form"
+                        id="myForm"
+                        ref={form}
+                        onSubmit={sendEmail}
+                      >
+                        <div className="first">
+                          <ul>
+                            <li>
+                              <input
+                                type="text"
+                                name="name"
+                                placeholder="Nafn"
+                                required
+                              />
+                            </li>
+                            {/* END FIRST NAME */}
+
+                            <li>
+                              <input
+                                type="email"
+                                name="user_email"
+                                placeholder="Netfang"
+                                required
+                              />
+                            </li>
+                            {/* END EMAIL */}
+
+                            <li>
+                              <textarea
+                                name="message"
+                                placeholder="Skilaboð"
+                                required
+                              ></textarea>
+                            </li>
+                            {/* END SUBJECT MESSAGE */}
+                          </ul>
                         </div>
-                        <div className="col-md-6 col-12 section-space--bottom--20">
-                          <input
-                            name="con_email"
-                            type="email"
-                            placeholder="Netfang"
-                          />
+                        <div className="tokyo_tm_button">
+                          <button type="submit" className="ib-button">
+                            Senda skilaboð
+                          </button>
+                          <br /><br />
+                          (ath. það verður að fylgja annaðhvort netfang eða sími..)
                         </div>
-                        <div className="col-12">
-                          <textarea
-                            name="con_message"
-                            placeholder="Skilaboð"
-                            defaultValue={""}
-                          />
-                        </div>
-                        <div className="col-12">
-                          <button>Senda</button>
-                        </div>
-                      </div>
-                    </form>
+                        {/* END SUBMIT BUTTON */}
+                      </form>
+                      {/* END FORM */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <br />
+              <hr />
+              <br />
+              <br />
+              <div className="row section-space--bottom--50">
+                <div className="col">
+                  <div className="contact-map">
+                    <iframe
+                    title="blehhh"
+                        id="project_frame" name="project_frame"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1741.0009177103589!2d-21.827062922384115!3d64.128075018107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d67481f30eb80f%3A0x885fc8bd9a61d063!2sBlikksmi%C3%B0jan%20Grettir!5e0!3m2!1sen!2sis!4v1716412954935!5m2!1sen!2sis"
+                        width="600" height="450" allowFullScreen="" loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade">
+
+                    </iframe>
                   </div>
                 </div>
               </div>
@@ -126,12 +194,8 @@ class Contact extends Component {
         </div>
         {/*====================  End of content page content  ====================*/}
 
-        {/* Footer */}
-        <Footer />
-
       </div>
     );
   }
-}
 
 export default Contact;
